@@ -4,7 +4,8 @@
   "description": "Test project on how to create a shared components library in react",
   "main": "dist/shared-styled-components.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "test": "mocha-webpack --opts tests/mocha-webpack.opts"
   },
   "repository": {
     "type": "git",
@@ -25,8 +26,12 @@
     "cross-env": "~5.1.3",
     "glamor": "^2.20.40",
     "glamorous": "~4.11.6",
+    "jsdom": "~11.6.2",
     "lodash": "~4.17.5",
-    "react": "^16.2.0",
-    "webpack": "~3.11.0"
+    "mocha": "~4.1.0",
+    "mocha-webpack": "~1.0.1",
+    "react": "~16.2.0",
+    "webpack": "~3.11.0",
+    "webpack-node-externals": "~1.6.0"
   }
 }
