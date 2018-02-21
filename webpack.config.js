@@ -15,6 +15,16 @@ const config = {
       commonjs2: 'lodash',
       amd: 'lodash',
       root: '_'
+    },
+    react: {
+      commonjs: 'react',
+      commonjs2: 'react',
+      amd: 'react'
+    },
+    glamorous: {
+      commonjs: 'glamorous',
+      commonjs2: 'glamorous',
+      amd: 'glamorous'
     }
   },
   module: {
