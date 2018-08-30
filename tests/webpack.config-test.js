@@ -1,6 +1,7 @@
 const nodeExternals = require('webpack-node-externals');
 
 const config = {
+  mode: 'development',
   output: {
     // use absolute paths in sourcemaps (important for debugging via IDE)
     devtoolModuleFilenameTemplate: '[absolute-resource-path]',

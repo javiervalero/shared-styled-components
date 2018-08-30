@@ -1,4 +1,4 @@
 --colors
 --webpack-config tests/webpack.config-test.js
---require tests/setup.js
+--require jsdom-global/register tests/setup.js
 tests/**/*.test.js
